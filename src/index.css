@@ -1,0 +1,97 @@
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.952);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Header */
+
+.header {
+    padding: 20px;
+    margin: 20px;
+}
+.header .flex {
+    align-items: center;
+    justify-content: space-between;
+}
+.headerLink a {
+    padding: 10px;
+}
+.header .header__icon {
+    font-size: 25px;
+}
+
+
+/* Main */
+ .main {
+    background-image: url("./assets/fotos/capaFundo.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1520px;
+    height: 86vh;
+    display: flex;
+    align-items: center;
+ }
+
+ .main .flex{
+    flex-direction: column;
+    margin: 150px;
+ }
+ .main__text h1{
+    margin: 20px 0;
+    font-size: 40px;
+ }
+ .main__text p{
+    margin: 20px 0;
+ }
+
+ .main__button button{
+    margin-right:15px;
+    padding: 5px 25px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: transparent;
+    color: inherit;
+ }
+
+ /* About */
+
+ .about {
+    padding: 0px 0px 0px 50px;
+ }
+ .about .flex{
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+ }
+
+.about__text h1{
+    padding-bottom: 20px;
+}
+.about__text p{
+    text-align: justify;
+}
+
+.about__img img{
+    height: auto;
+    width: 120vh;
+    border-radius:10px;
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.5);
+}
