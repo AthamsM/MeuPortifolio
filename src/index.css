@@ -20,6 +20,10 @@ a {
    display: flex;
 }
 
+span {
+   color: rgb(27, 70, 212);
+}
+
 /* Header */
 
 .header {
@@ -35,9 +39,16 @@ a {
 .headerLink a {
    padding: 10px;
 }
+.headerLink a.ativar {
+   color: rgb(27, 70, 212);
+ }
 
 .header .header__icon {
    font-size: 25px;
+   transition: .2s;
+}
+.header .header__icon:hover {
+   transform: scale(1.1);
 }
 
 
@@ -71,9 +82,13 @@ a {
    padding: 5px 25px;
    font-size: 20px;
    border: 1px solid;
-   border-radius: 15px;
+   border-radius: 10px;
    background-color: transparent;
    color: inherit;
+   transition: .2s;
+}
+.main__button button:hover{
+   transform: scale(1.1);
 }
 
 /* About */
@@ -90,10 +105,6 @@ a {
 
 .about__text h1 {
    padding-bottom: 20px;
-}
-
-span {
-   color: rgb(7, 201, 65);
 }
 
 .about__text p {
@@ -113,10 +124,9 @@ span {
    padding: 30px;
    margin: 20px;
    max-height: 100vh;
-   
 }
 .projetos__skills{
-   width: 350px; /* Define um tamanho fixo para a barra lateral */
+   width: 350px; 
    flex-shrink: 0;
 }
 
@@ -132,6 +142,13 @@ span {
    margin-bottom: 30px;
 }
 
+.ferramenta-container{
+   display: inline-flex;
+   transition: .2s;
+}
+.ferramenta-container:hover{
+   transform: scale(1.1);
+}
 .projetos .projetos__icon {
    font-size: 60px;
    margin-right: 20px;
@@ -149,6 +166,7 @@ span {
 .projetos__projeto {
    max-height: 70vh; 
    overflow: hidden;
+   
 }
 
 .projetos__projeto h2 {
@@ -158,9 +176,11 @@ span {
    overflow-y: auto;
    max-height: 60vh;
    padding-right: 10px; 
+   
 }
 .projetos-container::-webkit-scrollbar {
    width: 6px;
+   
 }
 
 .projetos-container::-webkit-scrollbar-thumb {
@@ -175,7 +195,4 @@ span {
    height: 200px;
    margin-bottom: 20px;
    border-radius: 15px;
-}
-.ferramenta-container{
-   display: inline-flex;
 }

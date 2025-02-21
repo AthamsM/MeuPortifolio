@@ -17,7 +17,7 @@ const projetos = [
   {
     id: 1,
     nome: "Isa",
-    descricao: "Um sistema que identifica possíveis vulnerabilidades e ofere suporte durante a sua jornada acadêmica como professor ou aluno",
+    descricao: "Um sistema que identifica possíveis vulnerabilidades e oferece suporte durante a sua jornada acadêmica como professor ou aluno.",
     tecnologias: ["React", "Vite", "Node.js", "MySQL", "Python"],
     github: "https://github.com/SamCatarina/isa",
     foto: Isa
@@ -26,7 +26,7 @@ const projetos = [
     id: 2,
     nome: "Tornearia Central",
     descricao: "Site de uma oficina mecânica.",
-    tecnologias: ["Python", "Pandas", "Django"],
+    tecnologias: ["HTML", "CSS",],
     github: "https://github.com/AthamsM/Tornearia-Central",
     foto: TorneariaCentral
   }
