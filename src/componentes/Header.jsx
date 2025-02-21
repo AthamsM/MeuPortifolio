@@ -11,7 +11,7 @@ const Header = () =>{
             <div className='flex'>
                 <div className='headerLink'>
                     <Link to="/">Início</Link>
-                    <Link to="/skill">Especialidades</Link>
+                    <Link to="/projetos">Especialidades</Link>
                     <Link to="/about">Sobre-mim</Link>
                 </div>
                 <div className='headerLink'>
