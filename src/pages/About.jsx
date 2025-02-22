@@ -1,5 +1,5 @@
 import React from "react"
-import usuario from "../assets/fotos/aths-portifolio-black.jpg";
+import usuario from "../assets/fotos/aths-portfolio-black.jpg";
 
 const About = () => {
     return(
