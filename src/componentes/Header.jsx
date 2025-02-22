@@ -11,9 +11,9 @@ const Header = () =>{
         <div className='header' >
             <div className='flex'>
                 <div className='headerLink'>
-                    <Link to="/" className={local.pathname === "/" ? "ativar": ""}>Início</Link>
-                    <Link to="/projetos" className={local.pathname === "/projetos" ? "ativar": ""}>Resumo</Link>
-                    <Link to="/about" className={local.pathname === "/about" ? "ativar": ""}>Sobre-mim</Link>
+                    <Link to="/MeuPortfolio/" className={local.pathname === "/" ? "ativar": ""}>Início</Link>
+                    <Link to="/MeuPortfolio/projetos" className={local.pathname === "/projetos" ? "ativar": ""}>Resumo</Link>
+                    <Link to="/MeuPortfolio/about" className={local.pathname === "/about" ? "ativar": ""}>Sobre-mim</Link>
                 </div>
                 <div className='headerLink'>
                     <a href="https://www.linkedin.com/in/athams-337346274/"><FontAwesomeIcon className='header__icon' icon={faLinkedin} /></a>
