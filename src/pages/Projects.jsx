@@ -87,7 +87,7 @@ const Projects = () => {
             <ul>
               <li>Full Stack</li>
               <li>Banco de dados</li>
-              <li>Ciencia de Dados</li>
+              <li>Ciência de Dados</li>
             </ul>
           </div>
         </div>
