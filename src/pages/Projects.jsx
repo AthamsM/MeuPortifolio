@@ -11,6 +11,7 @@ import {
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import TorneariaCentral from "../assets/fotos/TorneariaCentral.png";
 import Isa from "../assets/fotos/Isa.png";
+import Wumpus from "../assets/fotos/wumpus.png";
 
 
 const projetos = [
@@ -25,10 +26,18 @@ const projetos = [
   {
     id: 2,
     nome: "Tornearia Central",
-    descricao: "Site de uma oficina mecânica.",
+    descricao: "Site de uma oficina mecânica",
     tecnologias: ["HTML", "CSS",],
     github: "https://github.com/AthamsM/Tornearia-Central",
     foto: TorneariaCentral
+  },
+  {
+    id: 3,
+    nome: "Wumpus",
+    descricao: "Jogo de aventura desenvolvido na disciplina de IA.",
+    tecnologias: ["Python", "Pygame", "Piskel"],
+    github: "https://github.com/AthamsM/Wumpus",
+    foto: Wumpus
   }
 ];
 const ferramentas = [
